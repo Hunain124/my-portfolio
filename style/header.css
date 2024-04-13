@@ -23,7 +23,7 @@
     text-decoration: none;
     list-style: none;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     position: relative;
     overflow: hidden;
 }
@@ -95,7 +95,7 @@
     /* transform: translateX(0); */
 
 .intro h1{
-    animation: chalo 3s linear;
+    animation: chalo 2.5s linear;
     transform: translateX(0);
 }
 @keyframes chalo {
@@ -126,8 +126,8 @@
     padding: 20px;
 } */
 .intro button {
-    width: 15%;
-    height: 15%;
+    width: 20%;
+    height: 20%;
     border: none;
     padding: 10px 20px;
     text-align: center;
@@ -142,5 +142,24 @@
 
 .intro button:hover {
     box-shadow: 0 0 20px #3498db; /* Increase the intensity of the glow on hover */
-    background-color: #28465a;
+    /* background-color: #28465a; */
+    }
+
+    .about{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .about img{
+        border: 1px solid #3498db;
+        border-radius: 100%;
+        overflow: hidden;
+        background-color: black;
+        opacity: 40%;
+    }
+    .about img:hover{
+        background-color: rgb(210, 210, 210);
+        opacity: 50%;
     }
